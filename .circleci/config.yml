@@ -7,5 +7,7 @@ jobs:
       - checkout:
       - run:
           ci/build-app.sh
+      - run:
+          - ci/unit-test-app.sh
       - store_test_results:
           path: test-results.xml
