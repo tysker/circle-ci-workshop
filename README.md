@@ -134,7 +134,7 @@ To store test results in CircleCI use the following syntax:
 
 ```YAML
 - store_test_results:
-    path: test-results
+    path: test-results.xml
 ```
 
 CircleCI supports a few different test report formats.
